@@ -1,0 +1,89 @@
+1. Keamanan Informasi dan Jaringan
+	- Keamanan: Menjaga, Melindungi, tidak Terancam
+	- Informasi: Banyak data yang diolah, bermakna, Insight
+	- Jaringan: Kumpulan yang saling terhubung, device, host
+	- Caranya
+		a. Mengubah menjadi bentuk lain
+		b. Mengenkripsi
+	- Data adalah (Fakta, Representasi kenyataan)
+	- Informasi -> Data yang diproses
+	- Cukupkah hanya mengamankan data/ Informasi?
+		1. Data
+		2. Informasi
+		3. Jaringan
+		4. Hardware
+		5. Sumber Daya Elektrik
+		6. Administrator
+		7. Kedaulatan Data, contoh jepang naruh server diluar negeri nah itu adda compliance atau aturan yang harus diikkuti
+		8. DB pake apa
+		9. Protokol pake apa
+		10. Brainware/ Logika Aplikasi
+	- Ancaman: aksi yang dadpat mengakibatkan kerugian 
+	- Kategori Ancaman
+		a. Kegagalan SDM
+		b. Hardware Failure
+		c. Software Failure
+		d. External
+		e. Internal
+		f. Keuangan
+		g. Alam
+	- Dikatakan Aman Jika
+		a. Confidentiality (Kerahasiaan) : bagaimana data itu terjaga, siapa yang boleh liat dan akses
+			Usaha untuk menjaga informasi dari orang yang tidak berhak mengaksees
+			contoh: penyadapan, sniffing
+		b. Integrity (Integritas) : Konsistensi Data dari Sumber mana aja
+			Informasi harus konsisten hingga awal hingga akhir, informasi tidak boleh dirubah tanpa seijin pemilik
+			contoh:: trojan horse, mitm, dll
+		c. Avaibility (Ketersediaan) : Data harus bisa diakses kapanpun
+			- Kepastian Keterseediaan Informasi oleh orang yang berwenang untuk mengakses data tersebut
+			contoh: Ping of the Death, Syn Flooding (kalo misal ad byk request apa lgsg ditangani server utama? bahaya bisa lgsg mati), Remote Controlled Attack
+			DOS: 1 HOS NYERANG SERVER
+			DDOS: BANYAK HOS NYERANG SERVER
+		d. Authentication : Keaslian Data
+			- metode untuk menyatikan bahwa informasi benar asli
+			- watermarking dadn digital signature
+	
+	- Otentikasi Vs Otorisasi
+		Otentikasi : proses validasi user itu bener bener dia atau bukan, password dan digital signature
+	- Masalah yang dihadapi?
+		a. Seberapa jauh keamanan harus diterapkan, apakah semua data harus di enkripsi? atau ada alternatif lain
+		b. Berapa biaya yang harus dikeluarkan, http atau hpps kebutuhan dan biaya yg dikeluarkan kan beda
+		c. Apakah dampak yang timbul dengan menerapkan ekstra keamanan dalam hal efisiensi dan fleksibilitas dari sistem komputer, bank punya ekstra keaanan sendiri jadi sukar dibobol beda dengan web pemerintah yang dulu dulu
+	- Langkah-langkah KIIJ
+		a. Mengevaluasi ancaman terhadap informasi
+		b. Memproteksi CIAA (Confidentiality, Integritas, Avaibility, Authentication)
+		c. Menghindari, mencegah dan mendeteksi kejadian yang tak terduga
+		d. Mengamankan orang, proses, dan teknologi tak hanya pada IT saja
+	
+	- Strategi Keamanan	
+		a. Physical Security: membahas bagaimana perangkat keras, perangkat lunak dan data terhadap ancaman fisik
+		b. Communication Security
+		c. Computer Security
+		d. Information Security
+		e. System Safety , misal kalo kebakaran langkah langkahnya gimana
+		f. Sistem Realibilitas, misal 1000 request dia mampu gak ? nah kalo gk mmpu ngatasinnya gmn jangan paksa
+		
+	- Badan Standar Keamanan
+		- ISO
+			Iso yang terkait dengan sistem manajemen keamanan informasi itu ISO 27001
+			Cara kerja sertifikasi Iso	
+				plan: desain arsitektur jaringan, dokumemn analisis plnya, dokumen pengujian aplikasi
+				do: implementasinya gimana, autentikasi pake apa
+				check: ada gak pengujian jaringan dan monitoring jaringan 
+				act: maintain dan improve
+		- PCI DSS untuk kartu kredit
+		- HIPAA fokus pada keamanan informasi kesehatan
+		- GDPR (General Data Protection dan Regulation)
+		- UU no 27 tahun 2022 tentang perlindungan data pribadi (PDP) yang disahkan pada 17 Oktober 2022
+			Kenapa harus ada UU PDP	
+				a. 28,7 persen WIR mengalami penyalahgunaan data pribadi
+				b. Sistem perlindungan 6 dari 10
+				c. Hanya 30% perusahaan memiliki sertifikat manajemen informasi 
+				d. 23% perusahaan yang mempunyai PDO
+				
+	
+	- Sertifikasi Bl
+		
+		
+		
+		

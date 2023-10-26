@@ -1,0 +1,88 @@
+Kriptografi
+A. Kasus
+	- Banyak dari tahun ke tahun 
+	- Kebocoran data
+	- Pencurian Data
+	- Pengaksesan data secara ilegal
+	
+- Data dan Informasi yang bersifat rahasia harus jidaga dari pembacaan dan pengubahan dari pihak yang tidak berhak (tidak memiliki otoritas) salah satu caranya adalah kriptografi
+
+B. Kriptografi	
+	- Tool yang sangat penting dalam keamanan informasi
+	- Cryptos (scret or hidden)
+	- Graphein (writing)
+	- Ilmu dan seni untuk menjaga keamanan pesan
+	- Kriptografi adalah ilmu yg mempelajari teknik matematika yang berhubungan dengan aspek keamanan informasi speerti kerahasiaan, integritas, serta otentikasi data
+	
+C. Terminologi
+	- Pesan data atau informasi yang dapat dibaca dan dimengerti maknanya
+	- nama lain plainteks, plain image, plain vidoeo, plain video
+	- Pengirim, Penrima, Penyusup (penyadap/ intruder)
+	- Ciphertext pesan yan telah disandikan sehingga tidak bermakna lagi, tujuan aar pesan tidak dapat dibaca oleh pihak yang tidak berhak
+	
+- enkripsi => plain text ke cipherteks, k
+- dekripsi => kebalikan enkripsi (dechipering)
+- enkripsi dan deskripsi butuh kuncinya 
+- kunci adalah parameter yang digunakan dalam enkripsi dan dekripsi
+- Ek(P) = C 
+- Dk(C) = P 
+
+D. Cipher 
+	- Algoritma untuk enkripsi dan dekripsi pesan
+	- Aturan (rule) untuk enchipering dan dechiphering berupa fungsi matematika yang digunakan untuk enkripsi dan dekripsi pesan
+	- Contoh 
+		- geser tiga huruf ke kanan 
+		- E(p) = (p+k) mod 26
+	- Classical Chiper : caesar chiper, vigenere cipher, playfair cipher, enigma chiper 
+	- Modern Chiper : DES, AES, Blowfish, Serpent, RSA, RC4
+	- Classical only string kalo modern bisa gambar
+	
+- Cryptanalisis
+	- ilmu memecahkan ciiphernya tanpa mengetahui kunci yang digunakan
+
+- Kriptologi
+	- kriptografi - menjaga 
+	- kript analisis - memecahkan
+
+- Kriptografi sejarah
+	- sudah beusia sangat tua sedak jaman dolu
+	- dibagi menjadi dua 
+		- ancient cryptography/ classical cryptography/
+			-kriptografi sblm ada komputer digital 
+			- Hannya mengenkripsi huruf dan angka 
+			- semua cipher udah dipecahkan
+		- Modern cryptography/	
+			- enripsi dan dekripsi pesan dalam bentuk digital dengan komputer digital
+		- scytale kriptografi saman romawi kuno
+
+- Jenis Algorirtma Kriptografi
+	- Algoritma Kriptografi Simetri (Symmetric - Key - cryptografi
+		- Kunci enkripsi dan kunci dekripsi itu sama, harus dijaga 	privat (rahasia) atau secret
+		- sudah ada sejak ribuan tahun lalu hinta 1976
+	- Algoritma Kriptografi Nir Simetri (Asymmetric key  cryptoography)
+		- kunci enkripsi !== kunci dekripsi ( 
+		- kunic enkripsi public key
+		- kunci dekripsi private key
+	- Hash
+		- Irreversible (tidak bisa dikembalikan menjadi pesan semula)
+		- mengkompresi ukuuran sembarang menjadi message digest berukuran fixed
+	- Kegunaan memerika integritas pesan
+	
+
+TUGAS 
+LAKUKAN RISET TERKAIT METODE KRIPTOGRAFI KLASIK
+	- Cipher Subtitusi
+	- Pilih 1 metode, pahami cara kerjanya 
+	- Refferensi dapat menggunakan artikel ilmiah mapun situs internet 
+	- implementasikan program enkripsi dan dekripsi 
+	- program di dokumentasikan dalam git
+	- Laporan bentuk pdf
+		- identitas
+		- judull
+		- penjelasan metode yang digunakan 
+		- alur metode yg digunakan 
+		- link git 
+		- panduan mengunakan program 
+		- ss proses enkripsi dan dekripsi 
+		- refferensi yang digunakan jika menggunakan altiker ilmiah di merge pdfnya kalo situs cantumkan situs =webnya
+	- 2 Minggu Demo Individu

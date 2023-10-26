@@ -1,0 +1,28 @@
+Pokok Bahasan
+	1. Konsep Dasar Keamanan Jaringan
+	2. Algoritma Enkripsi
+	3. Teknik/ Metode Menjaga Integritas Data : Menjaga Keutuhan Data dari dikirim hingga diterima itu harus sama	
+	4. Remote Server Secure Connection
+	5. Steganografi dan Watermarking
+		Steganografi itu nyisipin pesan di image tapi gk kliatan kita, kalo watermarking kebalikannya
+	6. Keamanan pada Program Komputer
+	7. Studi Kaus Keamanan Jaringan
+	
+Output
+	Bisa menerapkan teknik teknik Keamanan Informasi Jaringan
+	
+Pembagian Nilai
+	Keaktifan 10%
+	Tugaas 35%
+	QQuiz 10%
+	Uts 15%
+	Uas 30%
+	
+Peraturan
+	1. Kelas Offline
+	2. Jujur
+	3. Maks Bolos 4x
+	4. Ijin Wajib Surat Resmi
+	5. Terlambat mengirimkan tugas ada diskon 10%
+	
+Tubes nya poake tubes progjar kemarin cmn ditambahin enkripsi dan dekripsi, steganografi dll
