@@ -1,0 +1,46 @@
+Algoritma Kriptografi Klasik
+
+A. Pendahuluan
+- Kriptografi klasik merupakan kriptografi yang sudah tua
+- Cuman bisa string, angka, simbol, huruf
+- Algo sederhana
+
+Tiga Alasan
+	- Memahami Konsep Dasar
+	- Dasar Kritografi Modern
+	- Memahami Kelemahan
+
+Teknik Subbtitusi => Menganti huruf plainteks dengan cipher teks
+	- menggunakan teknik subtitusi
+	- contoh sederhana : caesar chiper (cara kerjanya digeser)
+	- Supaya lebih aman, cipherteks dikelompokkan ke dalam kelompok n-huruf, misalnya kelompok 4-huruuuf atau membuang spasi, biar lebih sulit
+	- xaranya di integerkan pake ascii terus rumus perhitungannya atau shiftnya pakai rule matematika
+	- Caesar chiper bisa di bruteforce 
+	- Masukan kata yg terkiptografi itu namanya kriptogram, nah crypt analysis nanti nyoba decrypt rumusnya cari pola yang tepat
+	- Jenis Cipher 
+		1. Cipher Abdjad-Tunggal (monoalphabetic cipher)
+			- caesar cipher contohnya
+			- A => B
+		2. Cipher subtitusi homofonic => setiap huruf plainteks diganti dengan salah satu huruf atau pasangan huruf cipherteks yang mungkin
+			- A => BC
+			- B => CD
+			- syaratnya gk boleh ad yg dobel
+		3. Cipher abjad majemuk => kuncinya berbeda beda 
+			- vigenere cipher 
+			- vigenere square (matrix untuk melakukan enkripsi)
+			- harus ada kunci  yg didefinisikan
+			- Jenis 
+				Full Vigenere CIpher => Setiap baris didalam tabell tidak menyatakan pergeseran huruf, tetapi merupakan permutasi huruf-huruf alphabet 
+				Auto Vigenere Cipher => Jika panjang kunci ebih kecil dari panjang plainteks nanti kuncinya digabung 
+				Running Key Vigenere Cipher => Kunci adalah string yang sangat panjang yang diambil di teks bermakna)
+		4. Cipher subtitusi Poligram => kuncinya beda beda dan berpasangan
+			- ab => cd 
+			- pkay fair cipher
+				- Mengenkripsi pasangan huruf (bigram) bukan huruf tunggal seperti cipher lainnya
+				- jika bersebelahan dengan huruf yang sama diganti dengan huruf sebelahnya di kata kunci 
+				- bisa juga kolomnya ditukar 
+				- bisa juga dengan perpotongann antara 2 huruf
+Teknik Transposisi => Mengubah Susunan atau posisi huruf plainteks dengan cipherteks (scrambing, permutasi, pengacakan)
+	- menggunakan teknik transposisi
+		- mengubah urutan cara baca (baris kolom) menggunakan matrix transpose
+Product Chiper => gabungan subtitusi dan transposisi)
